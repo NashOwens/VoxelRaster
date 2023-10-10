@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nash/git/graph/src/Shapes
+CXX_INCLUDES = -I/home/nash/git/VoxelRaster/src/Shapes
 
 CXX_FLAGS = -g
 

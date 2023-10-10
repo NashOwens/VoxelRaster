@@ -1,4 +1,4 @@
-# Install script for directory: /home/nash/git/graph/src/Shapes
+# Install script for directory: /home/nash/git/VoxelRaster/src/Shapes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

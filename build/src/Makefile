@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nash/git/graph
+CMAKE_SOURCE_DIR = /home/nash/git/VoxelRaster
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nash/git/graph/build
+CMAKE_BINARY_DIR = /home/nash/git/VoxelRaster/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles /home/nash/git/graph/build/src//CMakeFiles/progress.marks
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles /home/nash/git/VoxelRaster/build/src//CMakeFiles/progress.marks
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Sect.dir/rule:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Sect.dir/rule
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Sect.dir/rule
 .PHONY : src/CMakeFiles/Sect.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ Sect: src/CMakeFiles/Sect.dir/rule
 
 # fast build rule for target.
 Sect/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/build
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/build
 .PHONY : Sect/fast
 
 # Convenience name for target.
 src/CMakeFiles/userInput.dir/rule:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/userInput.dir/rule
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/userInput.dir/rule
 .PHONY : src/CMakeFiles/userInput.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ userInput: src/CMakeFiles/userInput.dir/rule
 
 # fast build rule for target.
 userInput/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/build
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/build
 .PHONY : userInput/fast
 
 Sect.o: Sect.cpp.o
@@ -149,7 +149,7 @@ Sect.o: Sect.cpp.o
 
 # target to build an object file
 Sect.cpp.o:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/Sect.cpp.o
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/Sect.cpp.o
 .PHONY : Sect.cpp.o
 
 Sect.i: Sect.cpp.i
@@ -157,7 +157,7 @@ Sect.i: Sect.cpp.i
 
 # target to preprocess a source file
 Sect.cpp.i:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/Sect.cpp.i
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/Sect.cpp.i
 .PHONY : Sect.cpp.i
 
 Sect.s: Sect.cpp.s
@@ -165,7 +165,7 @@ Sect.s: Sect.cpp.s
 
 # target to generate assembly for a file
 Sect.cpp.s:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/Sect.cpp.s
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/Sect.cpp.s
 .PHONY : Sect.cpp.s
 
 userInput.o: userInput.cpp.o
@@ -173,7 +173,7 @@ userInput.o: userInput.cpp.o
 
 # target to build an object file
 userInput.cpp.o:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/userInput.cpp.o
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/userInput.cpp.o
 .PHONY : userInput.cpp.o
 
 userInput.i: userInput.cpp.i
@@ -181,7 +181,7 @@ userInput.i: userInput.cpp.i
 
 # target to preprocess a source file
 userInput.cpp.i:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/userInput.cpp.i
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/userInput.cpp.i
 .PHONY : userInput.cpp.i
 
 userInput.s: userInput.cpp.s
@@ -189,7 +189,7 @@ userInput.s: userInput.cpp.s
 
 # target to generate assembly for a file
 userInput.cpp.s:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/userInput.cpp.s
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/userInput.cpp.s
 .PHONY : userInput.cpp.s
 
 # Help Target
@@ -219,6 +219,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

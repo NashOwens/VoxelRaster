@@ -1,6 +1,7 @@
 src/Utils/CMakeFiles/Utils.dir/Utils.cpp.o: \
- /home/nash/git/graph/src/Utils/Utils.cpp /usr/include/stdc-predef.h \
- /usr/include/GL/glew.h /usr/include/c++/11/cstddef \
+ /home/nash/git/VoxelRaster/src/Utils/Utils.cpp \
+ /usr/include/stdc-predef.h /usr/include/GL/glew.h \
+ /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -153,15 +154,16 @@ src/Utils/CMakeFiles/Utils.dir/Utils.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/nash/git/graph/src/Utils/Utils.h /usr/include/c++/11/vector \
+ /home/nash/git/VoxelRaster/src/Utils/Utils.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/nash/git/graph/src/Utils/../Shapes/Shape.h \
- /home/nash/git/graph/src/Utils/../Shapes/Obj.h /usr/include/glm/glm.hpp \
- /usr/include/glm/detail/_fixes.hpp /usr/include/c++/11/cmath \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /home/nash/git/VoxelRaster/src/Utils/../Shapes/Shape.h \
+ /home/nash/git/VoxelRaster/src/Utils/../Shapes/Obj.h \
+ /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
+ /usr/include/c++/11/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \

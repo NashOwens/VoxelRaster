@@ -1,6 +1,6 @@
 src/CMakeFiles/userInput.dir/userInput.cpp.o: \
- /home/nash/git/graph/src/userInput.cpp /usr/include/stdc-predef.h \
- /home/nash/git/graph/src/userInput.h /usr/include/GL/glew.h \
+ /home/nash/git/VoxelRaster/src/userInput.cpp /usr/include/stdc-predef.h \
+ /home/nash/git/VoxelRaster/src/userInput.h /usr/include/GL/glew.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

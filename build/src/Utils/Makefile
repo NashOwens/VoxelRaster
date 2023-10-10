@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nash/git/graph
+CMAKE_SOURCE_DIR = /home/nash/git/VoxelRaster
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nash/git/graph/build
+CMAKE_BINARY_DIR = /home/nash/git/VoxelRaster/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles /home/nash/git/graph/build/src/Utils//CMakeFiles/progress.marks
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles /home/nash/git/VoxelRaster/build/src/Utils//CMakeFiles/progress.marks
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/clean
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/preinstall
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/preinstall
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Utils/CMakeFiles/Utils.dir/rule:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/CMakeFiles/Utils.dir/rule
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/CMakeFiles/Utils.dir/rule
 .PHONY : src/Utils/CMakeFiles/Utils.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Utils: src/Utils/CMakeFiles/Utils.dir/rule
 
 # fast build rule for target.
 Utils/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/build
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/build
 .PHONY : Utils/fast
 
 Utils.o: Utils.cpp.o
@@ -135,7 +135,7 @@ Utils.o: Utils.cpp.o
 
 # target to build an object file
 Utils.cpp.o:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/Utils.cpp.o
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/Utils.cpp.o
 .PHONY : Utils.cpp.o
 
 Utils.i: Utils.cpp.i
@@ -143,7 +143,7 @@ Utils.i: Utils.cpp.i
 
 # target to preprocess a source file
 Utils.cpp.i:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/Utils.cpp.i
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/Utils.cpp.i
 .PHONY : Utils.cpp.i
 
 Utils.s: Utils.cpp.s
@@ -151,7 +151,7 @@ Utils.s: Utils.cpp.s
 
 # target to generate assembly for a file
 Utils.cpp.s:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/Utils.cpp.s
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/Utils.cpp.s
 .PHONY : Utils.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/nash/git/graph/src
+# Install script for directory: /home/nash/git/VoxelRaster/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nash/git/graph/build/src/Utils/cmake_install.cmake")
-  include("/home/nash/git/graph/build/src/Shapes/cmake_install.cmake")
+  include("/home/nash/git/VoxelRaster/build/src/Utils/cmake_install.cmake")
+  include("/home/nash/git/VoxelRaster/build/src/Shapes/cmake_install.cmake")
 
 endif()
 

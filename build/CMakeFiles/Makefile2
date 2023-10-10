@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nash/git/graph
+CMAKE_SOURCE_DIR = /home/nash/git/VoxelRaster
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nash/git/graph/build
+CMAKE_BINARY_DIR = /home/nash/git/VoxelRaster/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/graph.dir/all
+all: CMakeFiles/run.dir/all
 all: src/all
 .PHONY : all
 
@@ -72,7 +72,7 @@ preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/graph.dir/clean
+clean: CMakeFiles/run.dir/clean
 clean: src/clean
 .PHONY : clean
 
@@ -135,36 +135,36 @@ src/Utils/clean: src/Utils/CMakeFiles/Utils.dir/clean
 .PHONY : src/Utils/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/graph.dir
+# Target rules for target CMakeFiles/run.dir
 
 # All Build rule for target.
-CMakeFiles/graph.dir/all: src/Utils/CMakeFiles/Utils.dir/all
-CMakeFiles/graph.dir/all: src/Shapes/CMakeFiles/Cube.dir/all
-CMakeFiles/graph.dir/all: src/Shapes/CMakeFiles/Obj.dir/all
-CMakeFiles/graph.dir/all: src/Shapes/CMakeFiles/Pyramid.dir/all
-CMakeFiles/graph.dir/all: src/Shapes/CMakeFiles/Shape.dir/all
-CMakeFiles/graph.dir/all: src/CMakeFiles/Sect.dir/all
-CMakeFiles/graph.dir/all: src/CMakeFiles/userInput.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=13,14 "Built target graph"
-.PHONY : CMakeFiles/graph.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/Sect.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/userInput.dir/all
+CMakeFiles/run.dir/all: src/Utils/CMakeFiles/Utils.dir/all
+CMakeFiles/run.dir/all: src/Shapes/CMakeFiles/Cube.dir/all
+CMakeFiles/run.dir/all: src/Shapes/CMakeFiles/Obj.dir/all
+CMakeFiles/run.dir/all: src/Shapes/CMakeFiles/Pyramid.dir/all
+CMakeFiles/run.dir/all: src/Shapes/CMakeFiles/Shape.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=13,14 "Built target run"
+.PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/graph.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 16
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/graph.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
-.PHONY : CMakeFiles/graph.dir/rule
+CMakeFiles/run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
+.PHONY : CMakeFiles/run.dir/rule
 
 # Convenience name for target.
-graph: CMakeFiles/graph.dir/rule
-.PHONY : graph
+run: CMakeFiles/run.dir/rule
+.PHONY : run
 
 # clean rule for target.
-CMakeFiles/graph.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/clean
-.PHONY : CMakeFiles/graph.dir/clean
+CMakeFiles/run.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/clean
+.PHONY : CMakeFiles/run.dir/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/Sect.dir
@@ -173,14 +173,14 @@ CMakeFiles/graph.dir/clean:
 src/CMakeFiles/Sect.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Sect.dir/build.make src/CMakeFiles/Sect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=7,8 "Built target Sect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=7,8 "Built target Sect"
 .PHONY : src/CMakeFiles/Sect.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Sect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Sect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Sect.dir/rule
 
 # Convenience name for target.
@@ -199,14 +199,14 @@ src/CMakeFiles/Sect.dir/clean:
 src/CMakeFiles/userInput.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/userInput.dir/build.make src/CMakeFiles/userInput.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=15,16 "Built target userInput"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=15,16 "Built target userInput"
 .PHONY : src/CMakeFiles/userInput.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/userInput.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/userInput.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/userInput.dir/rule
 
 # Convenience name for target.
@@ -225,14 +225,14 @@ src/CMakeFiles/userInput.dir/clean:
 src/Utils/CMakeFiles/Utils.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Utils/CMakeFiles/Utils.dir/build.make src/Utils/CMakeFiles/Utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=11,12 "Built target Utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=11,12 "Built target Utils"
 .PHONY : src/Utils/CMakeFiles/Utils.dir/all
 
 # Build rule for subdir invocation for target.
 src/Utils/CMakeFiles/Utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Utils/CMakeFiles/Utils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : src/Utils/CMakeFiles/Utils.dir/rule
 
 # Convenience name for target.
@@ -251,14 +251,14 @@ src/Utils/CMakeFiles/Utils.dir/clean:
 src/Shapes/CMakeFiles/Cube.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=1,2 "Built target Cube"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=1,2 "Built target Cube"
 .PHONY : src/Shapes/CMakeFiles/Cube.dir/all
 
 # Build rule for subdir invocation for target.
 src/Shapes/CMakeFiles/Cube.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Cube.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : src/Shapes/CMakeFiles/Cube.dir/rule
 
 # Convenience name for target.
@@ -277,14 +277,14 @@ src/Shapes/CMakeFiles/Cube.dir/clean:
 src/Shapes/CMakeFiles/Obj.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=3,4 "Built target Obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=3,4 "Built target Obj"
 .PHONY : src/Shapes/CMakeFiles/Obj.dir/all
 
 # Build rule for subdir invocation for target.
 src/Shapes/CMakeFiles/Obj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Obj.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : src/Shapes/CMakeFiles/Obj.dir/rule
 
 # Convenience name for target.
@@ -303,14 +303,14 @@ src/Shapes/CMakeFiles/Obj.dir/clean:
 src/Shapes/CMakeFiles/Pyramid.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=5,6 "Built target Pyramid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=5,6 "Built target Pyramid"
 .PHONY : src/Shapes/CMakeFiles/Pyramid.dir/all
 
 # Build rule for subdir invocation for target.
 src/Shapes/CMakeFiles/Pyramid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Pyramid.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : src/Shapes/CMakeFiles/Pyramid.dir/rule
 
 # Convenience name for target.
@@ -329,14 +329,14 @@ src/Shapes/CMakeFiles/Pyramid.dir/clean:
 src/Shapes/CMakeFiles/Shape.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/graph/build/CMakeFiles --progress-num=9,10 "Built target Shape"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/VoxelRaster/build/CMakeFiles --progress-num=9,10 "Built target Shape"
 .PHONY : src/Shapes/CMakeFiles/Shape.dir/all
 
 # Build rule for subdir invocation for target.
 src/Shapes/CMakeFiles/Shape.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Shape.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : src/Shapes/CMakeFiles/Shape.dir/rule
 
 # Convenience name for target.

@@ -1,6 +1,6 @@
 src/Shapes/CMakeFiles/Obj.dir/Obj.cpp.o: \
- /home/nash/git/graph/src/Shapes/Obj.cpp /usr/include/stdc-predef.h \
- /home/nash/git/graph/src/Shapes/Obj.h /usr/include/glm/glm.hpp \
+ /home/nash/git/VoxelRaster/src/Shapes/Obj.cpp /usr/include/stdc-predef.h \
+ /home/nash/git/VoxelRaster/src/Shapes/Obj.h /usr/include/glm/glm.hpp \
  /usr/include/glm/detail/_fixes.hpp /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

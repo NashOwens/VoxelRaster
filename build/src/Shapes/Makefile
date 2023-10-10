@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nash/git/graph
+CMAKE_SOURCE_DIR = /home/nash/git/VoxelRaster
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nash/git/graph/build
+CMAKE_BINARY_DIR = /home/nash/git/VoxelRaster/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles /home/nash/git/graph/build/src/Shapes//CMakeFiles/progress.marks
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/graph/build/CMakeFiles 0
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles /home/nash/git/VoxelRaster/build/src/Shapes//CMakeFiles/progress.marks
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/VoxelRaster/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/clean
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/preinstall
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/preinstall
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Shapes/CMakeFiles/Cube.dir/rule:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Cube.dir/rule
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Cube.dir/rule
 .PHONY : src/Shapes/CMakeFiles/Cube.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ Cube: src/Shapes/CMakeFiles/Cube.dir/rule
 
 # fast build rule for target.
 Cube/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/build
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/build
 .PHONY : Cube/fast
 
 # Convenience name for target.
 src/Shapes/CMakeFiles/Obj.dir/rule:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Obj.dir/rule
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Obj.dir/rule
 .PHONY : src/Shapes/CMakeFiles/Obj.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ Obj: src/Shapes/CMakeFiles/Obj.dir/rule
 
 # fast build rule for target.
 Obj/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/build
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/build
 .PHONY : Obj/fast
 
 # Convenience name for target.
 src/Shapes/CMakeFiles/Pyramid.dir/rule:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Pyramid.dir/rule
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Pyramid.dir/rule
 .PHONY : src/Shapes/CMakeFiles/Pyramid.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ Pyramid: src/Shapes/CMakeFiles/Pyramid.dir/rule
 
 # fast build rule for target.
 Pyramid/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/build
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/build
 .PHONY : Pyramid/fast
 
 # Convenience name for target.
 src/Shapes/CMakeFiles/Shape.dir/rule:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Shape.dir/rule
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shapes/CMakeFiles/Shape.dir/rule
 .PHONY : src/Shapes/CMakeFiles/Shape.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ Shape: src/Shapes/CMakeFiles/Shape.dir/rule
 
 # fast build rule for target.
 Shape/fast:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/build
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/build
 .PHONY : Shape/fast
 
 Cube.o: Cube.cpp.o
@@ -177,7 +177,7 @@ Cube.o: Cube.cpp.o
 
 # target to build an object file
 Cube.cpp.o:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/Cube.cpp.o
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/Cube.cpp.o
 .PHONY : Cube.cpp.o
 
 Cube.i: Cube.cpp.i
@@ -185,7 +185,7 @@ Cube.i: Cube.cpp.i
 
 # target to preprocess a source file
 Cube.cpp.i:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/Cube.cpp.i
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/Cube.cpp.i
 .PHONY : Cube.cpp.i
 
 Cube.s: Cube.cpp.s
@@ -193,7 +193,7 @@ Cube.s: Cube.cpp.s
 
 # target to generate assembly for a file
 Cube.cpp.s:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/Cube.cpp.s
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Cube.dir/build.make src/Shapes/CMakeFiles/Cube.dir/Cube.cpp.s
 .PHONY : Cube.cpp.s
 
 Obj.o: Obj.cpp.o
@@ -201,7 +201,7 @@ Obj.o: Obj.cpp.o
 
 # target to build an object file
 Obj.cpp.o:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/Obj.cpp.o
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/Obj.cpp.o
 .PHONY : Obj.cpp.o
 
 Obj.i: Obj.cpp.i
@@ -209,7 +209,7 @@ Obj.i: Obj.cpp.i
 
 # target to preprocess a source file
 Obj.cpp.i:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/Obj.cpp.i
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/Obj.cpp.i
 .PHONY : Obj.cpp.i
 
 Obj.s: Obj.cpp.s
@@ -217,7 +217,7 @@ Obj.s: Obj.cpp.s
 
 # target to generate assembly for a file
 Obj.cpp.s:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/Obj.cpp.s
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Obj.dir/build.make src/Shapes/CMakeFiles/Obj.dir/Obj.cpp.s
 .PHONY : Obj.cpp.s
 
 Pyramid.o: Pyramid.cpp.o
@@ -225,7 +225,7 @@ Pyramid.o: Pyramid.cpp.o
 
 # target to build an object file
 Pyramid.cpp.o:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.o
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.o
 .PHONY : Pyramid.cpp.o
 
 Pyramid.i: Pyramid.cpp.i
@@ -233,7 +233,7 @@ Pyramid.i: Pyramid.cpp.i
 
 # target to preprocess a source file
 Pyramid.cpp.i:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.i
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.i
 .PHONY : Pyramid.cpp.i
 
 Pyramid.s: Pyramid.cpp.s
@@ -241,7 +241,7 @@ Pyramid.s: Pyramid.cpp.s
 
 # target to generate assembly for a file
 Pyramid.cpp.s:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.s
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Pyramid.dir/build.make src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.s
 .PHONY : Pyramid.cpp.s
 
 Shape.o: Shape.cpp.o
@@ -249,7 +249,7 @@ Shape.o: Shape.cpp.o
 
 # target to build an object file
 Shape.cpp.o:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/Shape.cpp.o
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/Shape.cpp.o
 .PHONY : Shape.cpp.o
 
 Shape.i: Shape.cpp.i
@@ -257,7 +257,7 @@ Shape.i: Shape.cpp.i
 
 # target to preprocess a source file
 Shape.cpp.i:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/Shape.cpp.i
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/Shape.cpp.i
 .PHONY : Shape.cpp.i
 
 Shape.s: Shape.cpp.s
@@ -265,7 +265,7 @@ Shape.s: Shape.cpp.s
 
 # target to generate assembly for a file
 Shape.cpp.s:
-	cd /home/nash/git/graph/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/Shape.cpp.s
+	cd /home/nash/git/VoxelRaster/build && $(MAKE) $(MAKESILENT) -f src/Shapes/CMakeFiles/Shape.dir/build.make src/Shapes/CMakeFiles/Shape.dir/Shape.cpp.s
 .PHONY : Shape.cpp.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nash/git/graph/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nash/git/VoxelRaster/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

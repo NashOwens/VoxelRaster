@@ -1,42 +1,42 @@
 [
 {
-  "directory": "/home/nash/git/graph/build",
-  "command": "/usr/bin/g++  -I/home/nash/git/graph/src/Shapes -isystem /usr/lib -g -o CMakeFiles/graph.dir/src/main.cpp.o -c /home/nash/git/graph/src/main.cpp",
-  "file": "/home/nash/git/graph/src/main.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build",
+  "command": "/usr/bin/g++  -I/home/nash/git/VoxelRaster/src/Shapes -isystem /usr/lib -g -o CMakeFiles/run.dir/src/main.cpp.o -c /home/nash/git/VoxelRaster/src/main.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/main.cpp"
 },
 {
-  "directory": "/home/nash/git/graph/build/src",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/Sect.dir/Sect.cpp.o -c /home/nash/git/graph/src/Sect.cpp",
-  "file": "/home/nash/git/graph/src/Sect.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build/src",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Sect.dir/Sect.cpp.o -c /home/nash/git/VoxelRaster/src/Sect.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/Sect.cpp"
 },
 {
-  "directory": "/home/nash/git/graph/build/src",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/userInput.dir/userInput.cpp.o -c /home/nash/git/graph/src/userInput.cpp",
-  "file": "/home/nash/git/graph/src/userInput.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build/src",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/userInput.dir/userInput.cpp.o -c /home/nash/git/VoxelRaster/src/userInput.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/userInput.cpp"
 },
 {
-  "directory": "/home/nash/git/graph/build/src/Utils",
-  "command": "/usr/bin/g++  -I/home/nash/git/graph/src/Utils -g -o CMakeFiles/Utils.dir/Utils.cpp.o -c /home/nash/git/graph/src/Utils/Utils.cpp",
-  "file": "/home/nash/git/graph/src/Utils/Utils.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build/src/Utils",
+  "command": "/usr/bin/g++  -I/home/nash/git/VoxelRaster/src/Utils -g -o CMakeFiles/Utils.dir/Utils.cpp.o -c /home/nash/git/VoxelRaster/src/Utils/Utils.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/Utils/Utils.cpp"
 },
 {
-  "directory": "/home/nash/git/graph/build/src/Shapes",
-  "command": "/usr/bin/g++  -I/home/nash/git/graph/src/Shapes -g -o CMakeFiles/Cube.dir/Cube.cpp.o -c /home/nash/git/graph/src/Shapes/Cube.cpp",
-  "file": "/home/nash/git/graph/src/Shapes/Cube.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build/src/Shapes",
+  "command": "/usr/bin/g++  -I/home/nash/git/VoxelRaster/src/Shapes -g -o CMakeFiles/Cube.dir/Cube.cpp.o -c /home/nash/git/VoxelRaster/src/Shapes/Cube.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/Shapes/Cube.cpp"
 },
 {
-  "directory": "/home/nash/git/graph/build/src/Shapes",
-  "command": "/usr/bin/g++  -I/home/nash/git/graph/src/Shapes -g -o CMakeFiles/Obj.dir/Obj.cpp.o -c /home/nash/git/graph/src/Shapes/Obj.cpp",
-  "file": "/home/nash/git/graph/src/Shapes/Obj.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build/src/Shapes",
+  "command": "/usr/bin/g++  -I/home/nash/git/VoxelRaster/src/Shapes -g -o CMakeFiles/Obj.dir/Obj.cpp.o -c /home/nash/git/VoxelRaster/src/Shapes/Obj.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/Shapes/Obj.cpp"
 },
 {
-  "directory": "/home/nash/git/graph/build/src/Shapes",
-  "command": "/usr/bin/g++  -I/home/nash/git/graph/src/Shapes -g -o CMakeFiles/Pyramid.dir/Pyramid.cpp.o -c /home/nash/git/graph/src/Shapes/Pyramid.cpp",
-  "file": "/home/nash/git/graph/src/Shapes/Pyramid.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build/src/Shapes",
+  "command": "/usr/bin/g++  -I/home/nash/git/VoxelRaster/src/Shapes -g -o CMakeFiles/Pyramid.dir/Pyramid.cpp.o -c /home/nash/git/VoxelRaster/src/Shapes/Pyramid.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/Shapes/Pyramid.cpp"
 },
 {
-  "directory": "/home/nash/git/graph/build/src/Shapes",
-  "command": "/usr/bin/g++  -I/home/nash/git/graph/src/Shapes -g -o CMakeFiles/Shape.dir/Shape.cpp.o -c /home/nash/git/graph/src/Shapes/Shape.cpp",
-  "file": "/home/nash/git/graph/src/Shapes/Shape.cpp"
+  "directory": "/home/nash/git/VoxelRaster/build/src/Shapes",
+  "command": "/usr/bin/g++  -I/home/nash/git/VoxelRaster/src/Shapes -g -o CMakeFiles/Shape.dir/Shape.cpp.o -c /home/nash/git/VoxelRaster/src/Shapes/Shape.cpp",
+  "file": "/home/nash/git/VoxelRaster/src/Shapes/Shape.cpp"
 }
 ]

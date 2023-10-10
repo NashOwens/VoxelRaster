@@ -1,2 +1,0 @@
-/usr/bin/ar qc libPyramid.a CMakeFiles/Pyramid.dir/Pyramid.cpp.o
-/usr/bin/ranlib libPyramid.a

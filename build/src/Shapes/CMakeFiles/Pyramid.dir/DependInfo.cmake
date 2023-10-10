@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nash/git/graph/src/Shapes/Pyramid.cpp" "src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.o" "gcc" "src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.o.d"
+  "/home/nash/git/VoxelRaster/src/Shapes/Pyramid.cpp" "src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.o" "gcc" "src/Shapes/CMakeFiles/Pyramid.dir/Pyramid.cpp.o.d"
   )
 
 # Targets to which this target links.
