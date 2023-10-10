@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/graph.dir/src/main.cpp.o -o graph  /usr/local/lib/libglfw3.a -lGL -lGLEW src/Utils/libUtils.a src/Shapes/libShape.a src/Shapes/libCube.a src/Shapes/libObj.a src/Shapes/libPyramid.a src/libSect.a src/libuserInput.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

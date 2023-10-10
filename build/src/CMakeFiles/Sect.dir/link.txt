@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSect.a CMakeFiles/Sect.dir/Sect.cpp.o
+/usr/bin/ranlib libSect.a
